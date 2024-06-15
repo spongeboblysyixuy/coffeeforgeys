@@ -1,0 +1,12 @@
+.coffeelist{
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+
+    span{
+        display: flex;
+        font-family: Baloo 2;
+        font-weight: 800;
+        font-size: 32px;
+    }
+}

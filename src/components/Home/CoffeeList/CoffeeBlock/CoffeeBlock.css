@@ -1,0 +1,156 @@
+.coffee-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.coffee-block{
+    width: 256px;
+    height: 310px;
+    border-radius: 6px 36px 6px 36px;
+    background: #F3F2F2;
+    text-align: center;
+    margin-top: 135px;
+}
+
+.logocoffee{
+    margin-top: -20px;
+}
+
+.pizza-block-title{
+    font-family: Baloo 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.coffee-block-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.itemprice{
+    display: flex;
+    left: 0;
+}
+
+.itemcounter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 38px;
+    padding: 0 8px ;
+    border-radius: 6px ;
+    background: #E6E5E5;
+    margin-left: 20px;
+}
+
+.minus-btn{
+    border: none;
+    font-family: Roboto;
+    font-size: 30px;
+    margin-right: 8px;
+    color: #8047F8;
+    background: #E6E5E5;
+    cursor: pointer;
+}
+
+.minus-btn:hover{
+    color: #d49beb;
+}
+
+.plus-btn{
+    border: none;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-left: 8px;
+    color: #8047F8;
+    background: #E6E5E5;
+    cursor: pointer;
+}
+
+.plus-btn:hover{
+    color: #d49beb;
+}
+
+.amount-of-coffee{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    color: #272221;
+}
+
+.typecontent{
+    display: flex;
+    justify-content: center;
+}
+
+.value{
+    font-family: Baloo 2;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+.itemcurrency{
+    color: #403937;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.typeswrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F1E9C9;
+    width: 81px;
+    height: 21px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 100px ;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 13px;
+    color: #C47F17;
+    list-style: none;
+}
+
+.coffee-description{
+    font-family: Roboto;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 4px;
+    color: #706765;
+
+}
+
+.add-to-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    :hover{
+        cursor: pointer;
+        background: #8047F8;
+    }
+}
+
+.cartcontainer{
+    width: 38px;
+    height: 38px;
+    border-radius: 6px;
+    background: #4B2995;
+}
+
+.addcart{
+    position: absolute;
+    pointer-events: none;
+}

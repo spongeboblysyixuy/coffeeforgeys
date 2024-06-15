@@ -1,0 +1,19 @@
+.textcontent_wrapper{
+    display: flex;
+    align-items: center;
+    height: 544px;
+    background-size: 100%;
+    background-image: url('../../../assets/Background.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 150px 0 150px;
+}
+
+.coffee-image {
+    transform: scale(105%);
+    margin-left: 100px;
+    pointer-events: none;
+    user-select: none;
+    height: 360px;
+    width: 476px;
+}
